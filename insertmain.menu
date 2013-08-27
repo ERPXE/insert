@@ -1,0 +1,17 @@
+LABEL INSERTX
+MENU LABEL ^INSERT - Start X
+KERNEL er/plugins/insert/vmlinuz
+INITRD er/plugins/insert/miniroot.gz
+APPEND nfsdir=10.0.0.1:/tftpboot/er/shares/insert nodhcp lang=us ramdisk_size=100000 init=/etc/init apm=power-off nomce noapic dma vga=normal lang=en BOOT_IMAGE=insert
+TEXT HELP
+                 INSERT - Inside Security Tool Kit - Start X.
+ENDTEXT
+
+LABEL INSERTCLI
+MENU LABEL ^INSERT - Text Mode
+KERNEL er/plugins/insert/vmlinuz
+INITRD er/plugins/insert/miniroot.gz
+APPEND nfsdir=10.0.0.1:/tftpboot/er/shares/insert nodhcp lang=us ramdisk_size=100000 init=/etc/init 2 apm=power-off nomce noapic dma vga=normal lang=en BOOT_IMAGE=insert
+TEXT HELP
+                 INSERT - Inside Security Tool Kit - CLI.
+ENDTEXT

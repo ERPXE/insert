@@ -1,0 +1,7 @@
+.:
+filelist.txt
+insertmain.menu
+insert.menu
+insert.png
+miniroot.gz
+vmlinuz

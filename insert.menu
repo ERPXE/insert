@@ -1,0 +1,13 @@
+MENU BEGIN INSERT
+MENU LABEL ^Inside Security Resource Kit 1.39b
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/insert/insert.png
+
+MENU INCLUDE er/plugins/insert/insertmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE  er/menu/shared/menu-back.module
+MENU END
