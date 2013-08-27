@@ -1,7 +1,6 @@
 MENU BEGIN INSERT
+MENU TITLE Inside Security Resource Kit 1.39b
 MENU LABEL ^Inside Security Resource Kit 1.39b
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
 
 # ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/insert/insert.png
